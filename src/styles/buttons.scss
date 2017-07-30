@@ -1,0 +1,36 @@
+@import "color";
+// [class^='btn-'] {
+
+// }
+
+.btn-cover {
+  display: block;
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 15px;
+}
+
+.btn-rounder {
+  border-radius: 1rem!important;
+}
+
+.btn-blue-gradient {
+  color: #fff;
+  @include gradient(#1788d6, #5848cd);
+}
+
+.btn-disable,
+button:disabled {
+  background-color: #ccc!important;
+  color: #333!important;
+  background-image: none!important;
+}
+
+.btn-blue {
+  border: 1px solid $blue!important;
+  color: $blue!important;
+}

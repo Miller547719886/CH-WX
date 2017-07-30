@@ -1,0 +1,35 @@
+.confirm {
+  .weui-dialog {
+    border-radius: 6px;
+
+    .weui-dialog__hd {
+      .weui-dialog__title {
+        font-size: 13px;
+      }
+      padding-top: 10px;
+      background-color: rgb(247, 247, 247);
+    }
+
+    .weui-dialog__bd {
+      font-size: 12px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      color: #333;
+
+      img {
+        width: 32px;
+        margin-bottom: 5px;
+      }
+    }
+
+    .weui-dialog__ft {
+      font-size: 13px;
+      line-height: 40px;
+
+      .weui-dialog__btn_primary {
+        color: $blue;
+      }
+    }
+
+  }
+}

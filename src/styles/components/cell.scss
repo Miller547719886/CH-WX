@@ -1,0 +1,39 @@
+/* cell高度为40px */
+.cell-40 {
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+  line-height: 2.5rem!important;
+  height: 2.5rem!important;
+}
+
+.vux-cell-box.weui-cell {
+  height: auto;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+
+  div {
+    line-height: 1.5;
+  }
+}
+
+
+/* 标题宽度 */
+.title-4 .vux-label {
+  min-width: 4em!important;
+}
+
+.title-5 .vux-label {
+  min-width: 5em!important;
+}
+
+.title-6 .vux-label {
+  min-width: 6em!important;
+}
+
+.title-7 .vux-label {
+  min-width: 7em!important;
+}
+
+.title-8 .vux-label {
+  min-width: 8em!important;
+}

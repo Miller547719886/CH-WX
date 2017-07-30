@@ -1,0 +1,32 @@
+/* 绑定手机 */
+#app .pop-bind-phone {
+  .weui-cells__title {
+    text-align: center;
+  }
+
+  .weui-cell {
+    padding: 10px 15px;
+  }
+
+  /* 手机验证码图片 */
+  .weui-vcode-img {
+    margin: 5px 0;
+    height: 34px;
+  }
+}
+
+/* 多级选择 */
+.vux-popup-dialog.pop-multiple-select {
+  height: 15rem!important;
+
+  .multiple-select-ct {
+    overflow: hidden;
+    height: 12.5rem;
+
+    &>div {
+      height: 100%;
+      overflow: auto;
+    }
+  }
+}
+

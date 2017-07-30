@@ -1,0 +1,7 @@
+node_modules/
+path.txt
+npm-debug.log*
+dist/
+.idea
+TODO.txt
+README.html

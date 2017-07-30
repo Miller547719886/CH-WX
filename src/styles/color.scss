@@ -1,0 +1,46 @@
+$w: #fff;
+$b: #000;
+$r: #f54860;
+$blue: #019dd9;
+$tag-blue: #69c6ea;
+$border-grey: #e6e6e6;
+$cel-selected-blue: #ebf9ff;
+
+@mixin gradient($from:from, $to:to) {
+  background-repeat: repeat-x;
+  background-image: -webkit-linear-gradient(-45deg, $from , $to);
+  background-image: -o-linear-gradient(-45deg, $from , $to);
+  background-image: linear-gradient(-45deg, $from , $to);
+}
+
+@mixin box-shadow-top() {
+  box-shadow: 0px -2px 5px #cdcdcd;
+  -webkit-box-shadow: 0px -2px 5px #cdcdcd;
+  -o-box-shadow: 0px -2px 5px #cdcdcd;
+  -moz-box-shadow: 0px -2px 5px #cdcdcd;
+}
+
+.color-disable {
+  color: #cccccc;
+}
+
+.color-red {
+  color: $r;
+}
+
+.color-blue {
+  color: $blue;
+}
+
+.color-white,
+.c-white {
+  color: $w;
+}
+
+.color-grey {
+  color: #999;
+}
+
+.bg-blue {
+  background-color: $blue!important;
+}
